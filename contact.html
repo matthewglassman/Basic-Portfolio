@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact Me</title>
-	<!-- Link to CSS file to style the page -->
-	<link ref="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>Contact Me</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 <header>
-	<h1 id="myname">Matthew Glassman</h1>
-<nav>
-<ul>
- 	<li id="about"><a href="index.html">About</a></li>
-	<li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
-	<li id="contact"><a href="contact.html">Contact</a></li>
-</ul>
-</nav>
+  <h1 class="name">Matthew Glassman</h1>
+  <section id="cont"><a href="contact.html">Contact</a></section>
+  <section id="port"><a href="portfolio.html">Portfolio</a></section>
+  <section id="bout"><a href="index.html">About</a></section>
 </header>
+  <div class="full">
 <section id="contactarea">
-<h2 id="contact">Contact</h2>
+<h1 id="contact">Contact</h1>
+<hr>
 <form method="post">
 	<div>
 		<label for="name">Name</label>
@@ -39,14 +36,16 @@
 	</div>
 </form>
 </section>
-<aside id="connect">
-  <h3 id="connection">Connect with Me</h3>
-  <a href="http://www.github.com"><img src="assets/images/githubicon.png" id="github"></a>
-  <a href="https://www.linkedin.com/in/matthew-glassman-it"><img src="assets/images/linkedinicon.png" id="linkedin"></a>
-  <a a href="http://www.stackoverflow.com"><img src="assets/images/stackoverflowicon.png" id="stackoverflow"></a>
-</aside>
-<footer>
-<p>@Copyright 2016 Matthew Glassman</p>
+	 <aside class="connection">
+        <h3 id="connectionHead">Connect with Me</h3>
+        <hr id="connectionHR">
+        <a href="http://www.github.com"><img src="assets/images/githubicon.png" alt="githubicon" id="ghicon"></a>
+        <a href="https://www.linkedin.com/in/matthew-glassman-it"><img src="assets/images/linkedinicon.png" alt="linkedinicon" id="liicon"></a>
+        <a href="http://www.stackoverflow.com"><img src="assets/images/stackoverflowicon.png" alt="stackoverflowicon" id="stackicon"></a>
+      </aside>
+ </div>
+<footer class="dasboot">
+@Copyright 2016 Matthew Glassman
 </footer>
 </body>
 </html>
