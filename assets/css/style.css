@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 html{
   /*background-image: url("../images/cardboard_flat.jpg");
   background-repeat: repeat; */
@@ -13,7 +16,7 @@ h1,h2,h3{
 .name{
   float: left;
   padding: 40px;
-  margin-left: 30px;
+  margin-left: 115px;
   margin-bottom: 0;
   margin-top: 0;
   background-color:#4aaaa5;
@@ -55,7 +58,7 @@ header{
   margin-top: 0;
   margin-bottom: 0;
   overflow: auto;
-  border-bottom: #cccccc;
+  border-bottom: 2px solid #cccccc;
  /* outline:2px dashed black; /*DEBUG*/
 }
 body{
@@ -66,22 +69,22 @@ body{
   /*outline:2px solid orange; /*DEBUG*/
 }
 .full{
-  margin: 0, 100px, 0, 100px;
+  margin: 25px 100px 15px 115px;
   clear: both;
   width: 970px;
   /*height: 455px;*/
   overflow: auto;
-  outline:2px solid red; /*DEBUG*/
+/*  outline:2px solid red; /*DEBUG*/
 }
 #me{
   float: left;
-  margin-top: 40px; 
-  margin-left: 30px;
+  /*margin-top: 40px; 
+  margin-left: 30px; */
   padding-left: 20px;
-  padding-right: 20;
+  padding-right: 20px;
   border: #dddddd;
   background: #ffffff;
-  width:650px;
+  width: 650px;
   /*outline:2px solid teal /*DEBUG*/
 }
 #meAbout{
@@ -108,7 +111,9 @@ p{
   float: right;
   text-align: center;
   /*margin-top: 40px;
-  margin-right: 20px; */
+  /*margin-right: 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
   background: #ffffff;
   /*outline:2px solid blue; /*DEBUG*/
   width:270px;
@@ -118,21 +123,21 @@ p{
 }
 #ghicon{
   /*float:left;*/
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   padding: 10px;
 
 }
 #liicon{
   /*float:left;*/
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   padding:10px;
 }
 #stackicon{
   /*float:left;*/
-  width: 36px;
-  height: 36px;
+  width: 56px;
+  height: 56px;
   padding: 10px;
 }
 .dasboot{
@@ -141,15 +146,15 @@ p{
   padding: 20px;
   background-color:#666666;
   clear: both;
-  border-top: 5px solid #4aaaa5;
+  border-top: 8px solid #4aaaa5;
  /* outline:2px solid green; /*DEBUG*/
 }
 #contactarea{
   float: left;
-  margin-top: 40px; 
-  margin-left: 30px;
+ /* margin-top: 40px; 
+  margin-left: 30px; */
   padding-left: 20px;
-  padding-right: 20;
+  padding-right: 20px;
   border: #dddddd;
   background: #ffffff;
   width:650px;
